@@ -1,0 +1,1 @@
+./map2h > map.h && ./shield "g++ src/tmp2.cpp -I. -o tmp2 -ftemplate-depth=100000 && ./tmp2"

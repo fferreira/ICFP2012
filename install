@@ -1,0 +1,7 @@
+cd src
+make map2h
+make shield
+mv map2h ..
+mv shield ..
+cd ..
+

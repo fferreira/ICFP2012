@@ -1,0 +1,50 @@
+Introduction / Disclaimer
+=========================
+
+We cannot submit our binaries because all the computation in our code
+happens at compile time, during template instatiation. In fact we use
+templates as a Pure Functional Programming Language! Long live the
+λ. That is, we use the C++ compiler as a functional interpreter.
+
+It is important to note that we had tons of fun forcing the compiler
+to do the computation instead of the program execution, in fact the
+templates stage the solution so the executable basically only prints
+out the answer!. As a consequence the code is ridiculously complex and
+the execution is super-slow. So this is a stylistic solution rather
+than an efficient one.
+
+We reached a solemn conclusion: out there, people (C++ programmers
+really) are learning functional programming to use Template Meta
+Programming, this is so complicated that the moment these people
+discover Haskell or any proper functional language they will cry tears
+of joy!
+
+Dependencies
+============ 
+
+The only required package is:
+
+g++
+
+that can be installed with: 
+
+sudo apt-get install g++
+
+
+Running the program
+===================
+
+first invoke
+    ./install
+then
+    ./lifter < yourmap.map
+
+Authors
+=======
+
+Daniel Gutson 
+daniel.gutson@gmail.com
+
+Francisco Ferreira
+fferre8@cs.mcgill.ca
+
